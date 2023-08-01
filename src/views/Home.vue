@@ -11,11 +11,11 @@
         <v-row>
           <v-col cols="12" sm="1"></v-col>
 
-          <v-col cols="12" sm="10" >
+          <v-col cols="12" sm="10" md="10" lg="10" xl="10">
             <v-card>
               <v-row>
-                <v-col cols="12" sm="3">
-                  <v-card class=" rounded-0 ml-7 ma-3 elevation-0">
+                <v-col cols="12" sm="3" md="3" lg="3" xl="3">
+                  <v-card class="rounded-0 ml-7 ma-3 elevation-0">
                     <v-avatar
                       color="grey"
                       size="310"
@@ -30,7 +30,7 @@
                       <p class="text-h7 font-weight-regular text-grey-darken-1">@metnerium</p>
 
                     </v-list-item>
-                    <v-card class="rounded-1 ma-3 elevation-1">
+                    <v-card class="rounded-1 ma-3 elevation-1 max">
                       <v-timeline density="compact" align="start">
                       <v-timeline-item
                         size="x-small"
@@ -64,8 +64,8 @@
                       </v-timeline>
                     </v-card>
                     <v-card
-                      class="mx-auto ml-3 ma-5 pa-2"
-                      max-width="344"
+                      class="mx-auto ml-3 ma-5 pa-2 max"
+                      width="286"
                       variant="outlined"
                     >
                       <v-btn class="ml-3" density="compact" variant="plain" :href="`http://metnerium.tech/`" target="_blank">/metnerium.tech</v-btn> <v-spacer></v-spacer>
@@ -76,21 +76,21 @@
                     </v-card>
                   </v-card>
                 </v-col>
-                <v-col cols="12" sm="9">
-                  <v-card class="rounded-0 ml-3 ma-7 pl-10 elevation-0" variant="outlined">
-                    <h1 class="font-weight-light">Привет, меня зовут Вадим!</h1>
+                <v-col cols="12" sm="9" md="9" lg="9" xl="9">
+                  <v-card class="rounded-0 ml-3 ma-7 elevation-0" width="95%" variant="outlined">
+                    <h1 class="font-weight-light ma-2 ml-4">Привет, меня зовут Вадим!</h1>
 
-                    <p class="font-weight-regular text-grey-lighten-1 ma-2">...и я программист. Я занимаюсь разработкой кроссплатформенной приложений, блокчейн-решений. Я увлекаюсь новыми технологиями и всегда стремлюсь быть в курсе последних тенденций в мире IT и науки. </p>
+                    <p class="font-weight-regular text-grey-lighten-1 ma-2 ml-5">...и я программист. Я занимаюсь разработкой кроссплатформенной приложений, блокчейн-решений. Я увлекаюсь новыми технологиями и всегда стремлюсь быть в курсе последних тенденций в мире IT и науки. </p>
 
-                    <p class="font-weight-regular text-grey-lighten-1 ma-2">Моя деятельность началась еще в 2014 году, когда я был во втором классе, тогда я и открыл для себе мир робототехники, в дальнейщем и программирования. Сейчас я уже достиг некоторых успехов, являюсь двухкратным призером всероссийского конкурса научно-технологических проектов "Большие вызовы", победителем конкурса цифровых портфолио НТО в номинации Иследовательская деятельность, а также финалистом национальной технологической олимпиады по ядерным технологиям и олимпиады Курчатова по математике, что подтверждает мои навыки и умение работать в команде.
+                    <p class="font-weight-regular text-grey-lighten-1 ma-2 ml-5">Моя деятельность началась еще в 2014 году, когда я был во втором классе, тогда я и открыл для себе мир робототехники, в дальнейщем и программирования. Сейчас я уже достиг некоторых успехов, являюсь двухкратным призером всероссийского конкурса научно-технологических проектов "Большие вызовы", победителем конкурса цифровых портфолио НТО в номинации Иследовательская деятельность, а также финалистом национальной технологической олимпиады по ядерным технологиям и олимпиады Курчатова по математике, что подтверждает мои навыки и умение работать в команде.
                     </p>
 
-                    <p class="font-weight-regular text-grey-lighten-1 ma-2">В данный момент я обучаюсь на первом курсе МГТУ им. Баумана, одном из лучших технических университетов России, по направлению прикладная информатика. Я верю, что образование – это ключ к открытиям, поэтому я всегда стремлюсь к знаниям и новым навыкам.
+                    <p class="font-weight-regular text-grey-lighten-1 ma-2 ml-5">В данный момент я обучаюсь на первом курсе МГТУ им. Баумана, одном из лучших технических университетов России, по направлению прикладная информатика. Я верю, что образование – это ключ к открытиям, поэтому я всегда стремлюсь к знаниям и новым навыкам.
                     </p>
                   </v-card>
-                  <v-card class="rounded-0 ml-3 ma-7 elevation-0" variant="outlined">
-                    <p class="ml-3 ma-3"><v-icon icon="mdi-laptop"></v-icon>Технологии:</p>
-                    <div>
+                  <v-card class="rounded-0 ml-3 ma-7 elevation-0" width="95%" variant="outlined">
+                    <p class="ml-3 ma-3">>>Технологии:</p>
+                    <div class="ml-5">
                       <svg class="ml-3 mr-2" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 128 128"><path fill="#F34F29" d="M124.737 58.378L69.621 3.264c-3.172-3.174-8.32-3.174-11.497 0L46.68 14.71l14.518 14.518c3.375-1.139 7.243-.375 9.932 2.314 2.703 2.706 3.461 6.607 2.294 9.993l13.992 13.993c3.385-1.167 7.292-.413 9.994 2.295 3.78 3.777 3.78 9.9 0 13.679a9.673 9.673 0 01-13.683 0 9.677 9.677 0 01-2.105-10.521L68.574 47.933l-.002 34.341a9.708 9.708 0 012.559 1.828c3.778 3.777 3.778 9.898 0 13.683-3.779 3.777-9.904 3.777-13.679 0-3.778-3.784-3.778-9.905 0-13.683a9.65 9.65 0 013.167-2.11V47.333a9.581 9.581 0 01-3.167-2.111c-2.862-2.86-3.551-7.06-2.083-10.576L41.056 20.333 3.264 58.123a8.133 8.133 0 000 11.5l55.117 55.114c3.174 3.174 8.32 3.174 11.499 0l54.858-54.858a8.135 8.135 0 00-.001-11.501z"/></svg>
                       <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 128 128"><path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"/><path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"/></svg>
                       <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 128 128"><path d="M109 50h-4.8l-1.2 6h-3.8l1.2-6h-4.9l-1.2 6H89v5h4.4l-.9 4H89v5h2.5l-1.2 6h4.8l1.2-6h3.8l-1.2 6h4.9l1.2-6h5v-5h-4.1l.9-4h3.2v-5h-2.2l1.2-6zm-7.9 15h-3.8l.9-4h3.8l-.9 4zm15.4-32.7c-.6-1.1-1.4-2.1-2.3-2.6L66.1 1.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7L11.4 29.7c-1.7 1-3.4 3.5-3.4 5.4v55.7c0 1.1.7 2.3 1.4 3.4l.1.1c.5.8 1.3 1.5 2 1.9l48.3 27.9c.8.5 2 .7 3.2.7 1.2 0 2.3-.3 3.1-.7l47.5-27.9c1.7-1 2.4-3.5 2.4-5.4V35.1c0-.8.4-1.8 0-2.6l.5-.2zm-4.2 2.1c0 .3-.3.5-.3.7v55.7c0 .8-.2 1.7-.4 2L64 120.6c-.1.1-.5.2-1.1.2-.6 0-1-.1-1.1-.2L13.6 92.8s-.1-.1-.2-.1l-.6-.6c-.4-.7.2-1.1-.8-1.2V35.2c1-.5.9-1.7 1.4-1.9L61.7 5.4c.1 0 .6-.2 1.2-.2s1 .1 1.1.2l48 27.7.4.9c.1.1-.1.3-.1.4zM63 87.5c-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6C80.1 82.5 72.1 87.5 63 87.5z" fill="#68217A"/></svg>
@@ -101,26 +101,33 @@
                       <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 128 128"><path d="M0 8.934l49.854.158 14.167 24.47 14.432-24.47L128 8.935l-63.834 110.14zm126.98.637l-24.36.02-38.476 66.053L25.691 9.592.942 9.572l63.211 107.89zm-25.149-.008l-22.745.168-15.053 24.647L49.216 9.73l-22.794-.168 37.731 64.476zm-75.834-.17l23.002.009m-23.002-.01l23.002.01" fill="none"/><path d="M25.997 9.393l23.002.009L64.035 34.36 79.018 9.404 102 9.398 64.15 75.053z" fill="#35495e"/><path d="M.91 9.569l25.067-.172 38.15 65.659L101.98 9.401l25.11.026-62.966 108.06z" fill="#41b883"/></svg>
                       <svg class="mr-2" width="40" height="40" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M64.004 0H34.102l29.902 61.848" fill="#1697F6"/><path d="M64.004 80v48L0 18.664h33.527L64.004 80zm0-80h29.898L64.004 61.848" fill="#7BC6FF"/><path d="M94.473 18.664H128L64.004 128V80l30.469-61.336z" fill="#AEDDFF"/></svg>
                     </div>
-                    <p class="font-weight-regular text-grey-lighten-1 ma-2">Я обладаю широким спектром навыков в области программирования. Владею языками программирования C#, C++, Java, Python, а также фреймворком Vue.js и библиотекой Vuetify для создания пользовательских интерфейсов. </p>
-                    <p class="font-weight-regular text-grey-lighten-1 ma-2">Кроме того, я уверенно работаю с Git и операционной системой Linux. Также имею опыт верстки сайтов и знаком с основными технологиями веб-разработки.
+                    <p class="font-weight-regular text-grey-lighten-1 ma-2 ml-5">Я обладаю широким спектром навыков в области программирования. Владею языками программирования C#, C++, Java, Python, а также фреймворком Vue.js и библиотекой Vuetify для создания пользовательских интерфейсов. </p>
+                    <p class="font-weight-regular text-grey-lighten-1 ma-2 ml-5">Кроме того, я уверенно работаю с Git и операционной системой Linux. Также имею опыт верстки сайтов и знаком с основными технологиями веб-разработки.
                     </p>
                   </v-card>
-                  <v-card class="rounded-0 ml-3 ma-7 elevation-0" variant="outlined">
+                  <v-card class="rounded-0 ml-3 ma-7 elevation-0" width="95%" variant="outlined">
                     <p class="ml-3 ma-3"><v-icon icon="mdi-laptop"></v-icon>Codewars:</p>
-                    <v-img class="ml-3 ma-3" src="https://www.codewars.com/users/meitnerium/badges/large" width="400"></v-img>
+                    <v-img class="ml-3 ma-3" src="https://www.codewars.com/users/meitnerium/badges/large" width="80%"></v-img>
                   </v-card>
-                  <v-card class="rounded-0 ml-3 ma-7 elevation-0" variant="outlined">
-                    <p class="ml-3 ma-3"><v-icon icon="mdi-laptop"></v-icon>Github статистика:</p>
-                    <v-table class="ml-3 ma-3">
-                      <tr>
-                        <td>
-                          <v-img height="205px" src="http://github-readme-streak-stats.herokuapp.com?user=metnerium&theme=dark&background=000000"></v-img>
-                        </td>
-                        <td>
-                          <v-img height="205px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=metnerium&layout=compact&theme=vision-friendly-dark" ></v-img>
-                        </td>
-                      </tr>
-                    </v-table>
+                  <v-card class="rounded-0 ml-3 ma-7 elevation-0" width="95%" variant="outlined">
+                    <p class="ml-3 ma-3"><v-icon icon="mdi-git"></v-icon>Github статистика:</p>
+                    <div class="flex-wrap d-none d-lg-flex d-xl-flex">
+                        <v-img height="205px" src="http://github-readme-streak-stats.herokuapp.com?user=metnerium&theme=dark&background=000000"></v-img>
+                        <v-img height="205px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=metnerium&layout=compact&theme=vision-friendly-dark" ></v-img>
+                    </div>
+                    <div class="flex-wrap d-sm-flex d-md-flex d-lg-none d-xl-none">
+                        <v-img height="205px" src="http://github-readme-streak-stats.herokuapp.com?user=metnerium&theme=dark&background=000000"></v-img>
+                        <v-img height="205px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=metnerium&layout=compact&theme=vision-friendly-dark" ></v-img>
+                    </div>
+<!--                    <v-table class="ml-3 ma-3 d-lg-none d-xl-none">-->
+<!--                      <tr>-->
+
+<!--                          <v-img height="205px" src="http://github-readme-streak-stats.herokuapp.com?user=metnerium&theme=dark&background=000000"></v-img>-->
+<!--                        </tr>-->
+<!--                      <tr>-->
+<!--                          <v-img height="205px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=metnerium&layout=compact&theme=vision-friendly-dark" ></v-img>-->
+<!--                      </tr>-->
+<!--                    </v-table>-->
                   </v-card>
                 </v-col>
               </v-row>
